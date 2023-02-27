@@ -1,0 +1,144 @@
+* {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+/* header section */
+
+header {
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell; 
+    z-index: 1;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    width: auto;
+    padding: 10px 10px;
+}
+
+nav {
+    float: right;
+    width: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    word-spacing: 1em;
+}
+
+/* mission statement section */
+
+#missionStatement {
+    background-image: url("images/img-mission-background.webp");
+    height: 700px;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 225px;
+}
+
+#missionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#missionContainer h4 {
+    margin-top: 0;
+}
+
+/* featured tea section */
+
+#featuredTea {
+    max-width: 1000px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#featuredTea h4 {
+    padding-bottom: 40px;
+}
+
+#featured-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#teaPic {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/* locations section */
+
+#locations {
+    background-image: url('images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    max-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#locations h2 {
+    background: none;
+    padding-bottom: 15px;
+}
+
+#locations h3 {
+    font-size: 28px;
+}
+
+#locContainer div {
+    padding: 20px 20px;
+    line-height: 2em;
+    margin: 0;
+}
+
+#locContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: none;
+}
+
+#locContainer div {
+    width: 300px;
+    padding: 40px;
+}
+
+/* footer section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cc {
+    float: left;
+    font-weight: 500;
+    padding-left: 10px;
+}

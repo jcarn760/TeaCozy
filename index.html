@@ -1,0 +1,102 @@
+<!-- 
+    simple program to display a single page and demonstrate CSS code primarily using flexbox methods.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Tea Cozy</title>
+</head>
+<body>
+    <!-- Header/Navbar code each link will bring you to a seperate section of the page, the logo will
+        also bring you to the top of the page    
+    -->
+    <header>
+        <a href="#missionStatement"><img id="logo" src="images/img-tea-cozy-logo.webp" alt="Tea Cozy Logo"></a>
+        <nav>
+            <a href="#missionStatement">Mission</a></li>
+            <a href="#featuredTea">Featured_Tea</a></li>
+            <a href="#locations">Locations</a></li>
+        </nav>
+    </header>
+    <!-- 
+        The mission statement section
+     -->
+    <section id="missionStatement">
+        <div id="missionContainer">
+            <h2>Our Mission</h2>
+            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
+    </section>
+    <!-- 
+        The list of featured Teas section
+     -->
+    <section id="featuredTea">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
+        <div id="featured-container">
+            <div id="tea">
+                <img id="teaPic" src="images/img-berryblitz.webp" alt="Berry Blitz Tea">
+                <h4>Fall Berry Blitz Tea</h4>
+            </div>
+            <div id="tea">
+                <img id="teaPic" src="images/img-spiced-rum.webp" alt="Spiced Rum">
+                <h4>Spiced Rum Tea</h4>
+            </div>
+            <div id="tea">
+                <img id="teaPic" src="images/img-donut.webp" alt="Donut">
+                <h4>Seasonal Donuts</h4>
+            </div>
+            <div id="tea">
+                <img id="teaPic" src="images/img-donut.webp" alt="Donut">
+                <h4>Myrtle Ave Tea</h4>
+            </div>
+            <div id="tea">
+                <img id="teaPic" src="images/img-bedford-bizarre.webp" alt="Bedford Bizarre Tea">
+                <h4>Bedford Bizarre Tea</h4>
+            </div>
+        </div>
+    </section>
+    <!-- 
+        the list of each store location
+     -->
+    <section id="locations">
+        <h2>Locations</h2>
+        <div id="locContainer">
+            <div>
+                <h3>Downtown</h3>
+                <h4>384 West 4th St</h4>
+                <h4>Suite 108</h4>
+                <h4>Portland, Maine</h4>
+            </div>
+            <div>
+                <h3>East Bayside</h3>
+                <h4>3433 Phisherman's Avenue</h4>
+                <h4>(Northwest Corner)</h4>
+                <h4>Portland, Maine</h4>
+            </div>
+            <div>
+                <h3>Oakdale</h3>
+                <h4>515 Crescent Avenue</h4>
+                <h4>Second Floor</h4>
+                <h4>Portland, Maine</h4>
+            </div>
+        </div>
+    </section>
+    <!-- 
+        the footer with contact information
+     -->
+    <footer>
+        <section id="contact">
+            <h2>The Tea Cozy</h2>
+            <h5>contact@theteacozy.com</h5>
+            <h5>917-555-8904</h5>
+        </section>
+        <h5 id="cc">copyright The Tea Cozy 2023</h5>
+    </footer>
+</body>
+</html>
